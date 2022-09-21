@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-Drop</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">   
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+                      <!-- Drag-Drop TASK -->
+
+
+    <div class="container">
+        <div class="text mt-3">
+            <h5>All Box:<span id="allsize"><span></h5>
+            <h5>CurrentSize:<span id="copy" ><span></h5>
+        </div>
+        <div id="drag">
+            <div class="row justify-content-between mt-5">
+                <div draggable="true" id="1" class="box"></div>
+                <div draggable="true" id="2" class="box"></div>
+                <div draggable="true" id="3" class="box"></div>
+                <div draggable="true" id="4" class="box"></div>
+            </div>
+        </div>
+        <div id="drop"></div>
+    </div> 
+
+
+
+
+
+                  <!-- BACKSPACE TASK -->
+
+
+    <div  class="backspace d-flex justify-content-center mt-5 align-items-center">
+  <input id="inp" type="text" placeholder="Write text..." class="form-control w-25  fw-bold ps-4">
+  <button id="btn" class="btn btn-dark fw-bold ms-3">Delete</button>
+  <h2 class="ms-3 fs-3">Delete:<span id="del"></span></h2>
+</div>
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
